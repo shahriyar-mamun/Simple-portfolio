@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global CSS */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.container {
+    position: relative;
+    
+  }
+  .top-right {
+    position: absolute;
+    top: 100px;
+    right: -3px;
+  }
+  .social{
+      list-style: none;
+      width: 20px;
+      background-color: #F7DC4F;
+      text-align: center;
+      z-index: +100;
+  }
+  .social li a:hover{
+    color:#007ACC;
+    cursor: pointer;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+
+.col-12{
+    width: 100%;
+    float: left;
+}
+a:link {
+    text-decoration: none;
+  }
+/* Global CSS */
+
+
+
+
+.menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a{
+    
+    color: white;
+    font-size: 8px;
+     margin-left: 20px;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+
+.menu li a:hover{
+    color:#007ACC;
+    cursor: pointer;
+}
+
+.box-one{
+    width: 50%;
+    height: 500px;
+    background-color:#015761;
+}
+
+
+
+.box-one p{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    word-spacing: 5px;
+    
+}
+.box-one h4{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    color: #FFE44E;
+
+}
+
+ .box-one h5{
+    color:white;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.box-one h2{
+    color:#F6DB4F;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.col-6 img{
+    width: 100%;
+    height: 490px;
+    background-color: #F1F0F0;
+    
+}
+.box-two{
+width: 100%;
+background-color: #F1F0F0;
+height: 100%;
+text-align: center;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.box-two h1{
+    color: #015761;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.box-two p{
+    margin-bottom: 20px;
+
+}
+
+.button {
+    border: none;
+    color: #53835B;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #F7DC4F;
+  }
+
+  .box-three{
+      text-align: center;
+  }
+  .box-three h1{
+      margin: 50px 0px;
+      font-size: 40px;
+      font-weight: 700;
+      color: #538D93;
+  }
+
+  .video{
+      width: 100%;
+      text-align: center;
+  }
+
+  .container h1{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+      font-family: 'Poppins';
+      margin: 50px 0px;
+      color: #015761;
+  }
+   .col-4 .box-four{
+    height: 300px;
+    width: 98%;
+    margin-left: 20px;
+    
+  }
+   .col-4 img{
+    margin-right: 2px;
+    width: 80%;
+  } 
+
+
+  .col-6 .box-five{
+      width: 100%;
+      height: 500px;
+  }
+
+.box-six{
+    width: 50%;
+    height: 500px;
+    background-color:#015761;
+    
+  }
+  .box-six p{
+      margin-left: 100px;
+      color: white;
+      font-size: 12px;
+  }
+
+  
+  .box-six .contact{
+      font-size: 40px;
+      font-weight: 700;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      color: #F6DB4F;
+  }
+  .box-six .rep{
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  /* .box-six ul li{
+      width: 100%;
+      float: left;
+      text-decoration: none;
+      list-style: none;
+      text-align: center;
+
+  }
+  .box-six li a{
+      text-align: center;
+      float: left;
+      
+  } */
+  
+  .social-menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 80px;
+}
+.social-menu li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-menu li a{
+    
+    color: white;
+    font-size: 8px;
+     margin-left: 20px;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+  .footer-section {
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+    float: left;
+    text-align: center;
+}
+
+.footer-section p{
+    font-size: 12px;
+    font-weight: 400;
+    color:black;
+
+}
+.footer-section a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    letter-spacing:3px ;
+    text-decoration: none;
+}
